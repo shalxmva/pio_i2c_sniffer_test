@@ -1,0 +1,3 @@
+[submodule "pio_i2c_sniffer"]
+	path = pio_i2c_sniffer
+	url = https://github.com/shalxmva/pio_i2c_sniffer
