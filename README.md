@@ -1,16 +1,6 @@
-Config
-   SNIFFER PINS
-   
-      Sniffer SDA = Pin0
-      
-      Sniffer SCL = Pin1
+Set your pins modifying CMakeLists.txt
+  set(I2C_SNIFFER_SDA_PIN 13)
+  set(I2C_SNIFFER_SCL_PIN 14)
 
-   LCD_MASTER (Used to test it)
-   
-      LCD SDA = Pin2
-      
-      LCD SCL = Pin3
-      
-      BUTTON = Pin13  (Ground it to send 1 character to the lcd)
-      
-   
+Build
+
