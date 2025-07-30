@@ -62,6 +62,9 @@ target_include_directories(pio_i2c_sniffer_test PRIVATE
 #BUTTON  = 13
 target_compile_definitions(pio_i2c_sniffer_test PRIVATE -DRUN_LCD_MASTER)
 
+#PINS for I2C_Sniffing
+set(I2C_SNIFFER_SDA_PIN 13)
+set(I2C_SNIFFER_SCL_PIN 14)
 add_subdirectory(pio_i2c_sniffer) # 1 ADDS thelib folder to cmake
 
 # Add any user requested libraries
